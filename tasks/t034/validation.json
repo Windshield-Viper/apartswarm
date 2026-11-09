@@ -1,0 +1,44 @@
+{
+  "id": "t034",
+  "fn": "group_by",
+  "draw": 3,
+  "kept": false,
+  "reasons": [
+    "reference_fails",
+    "deepseek_never_passes"
+  ],
+  "gen_cost": 0.002857,
+  "n_tests": 5,
+  "ref": {
+    "passed": 4,
+    "failed": 1,
+    "errors": 0,
+    "timed_out": false,
+    "all_pass": false
+  },
+  "ref_tail": "....F\n=================================== FAILURES ===================================\nE   assert [None, 2] == [2, None]\n      \n      At index 0 diff: None != 2\n      Use -v to get more diff\n/private/var/folders/jj/w9ttspy526sb8x5rtj_rz44w0000gn/T/track_a_sbx/t034_ref_32opi3oy/test_hidden.py:23: assert [None, 2] == [2, None]\n=========================== short test summary info ============================\nFAILED test_hidden.py::test_5 - assert [None, 2] == [2, None]\n1 failed, 4 passed in 0.01s\n",
+  "wrong": {
+    "passed": 4,
+    "failed": 1,
+    "errors": 0,
+    "timed_out": false
+  },
+  "deepseek": [
+    {
+      "ok": true,
+      "passed": 4,
+      "failed": 1,
+      "errors": 0,
+      "all_pass": false,
+      "timed_out": false
+    },
+    {
+      "ok": true,
+      "passed": 4,
+      "failed": 1,
+      "errors": 0,
+      "all_pass": false,
+      "timed_out": false
+    }
+  ]
+}
