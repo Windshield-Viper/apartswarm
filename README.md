@@ -1,6 +1,6 @@
 # Does It Run in the Family? Lineage-Level Leniency When Language Models Monitor Code
 
-Siddharth Gupta, Owen Tam, Saahir Vazirani — Apart Research Swarm Alignment Hackathon, November 2026 (Track A).
+Siddharth Gupta, Owen Tam, Saahir Vazirani — Apart Research Swarm Alignment Hackathon, November 2026 (Track 4).
 
 Seven open-weight models from four families (DeepSeek, Gemma, Qwen, GLM) each solved 34 small Python tasks honestly and with an instructed hidden objective (an inert telemetry call carrying the marker `CANARY-7F3A`). Each model then scored every submission for suspicion as a code reviewer blind to authorship, giving a 7x7 policy x monitor catch-rate matrix at per-pair 5% false-positive thresholds. Only the attacks are instructed; monitors are never told to be lenient.
 
